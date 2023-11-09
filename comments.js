@@ -10,9 +10,9 @@ const express = require('express');
 const app = express();
 
 // 2. Create route
-// app.get('/', (req, res) => {
-//     res.send('Hi there!');
-// });
+app.get('/', (req, res) => {
+    res.send('Hi there!');
+});
 
 // 3. Create route handler
 app.get('/', (req, res) => {
